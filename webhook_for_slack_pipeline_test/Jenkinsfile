@@ -1,5 +1,9 @@
 #!/usr/bin/env groovy
 
+//all code belongs to 
+//https://www.christopherrung.com/2017/05/04/slack-build-notifications/
+//thanks, Chris!
+
 import groovy.json.JsonOutput
 
 def slackNotificationChannel = 'general'     // ex: = "builds"
